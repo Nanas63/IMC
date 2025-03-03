@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $title ?></title>
+    <title><IMC></title>
 
     <link rel="stylesheet" href="/asset/style.css">
 
@@ -34,7 +34,7 @@
 
         $imc = ($poids / ($taille*$taille))*10000;
 
-        echo "<p class='imc'>Votre IMC"." "."="." ".number_format($imc,1)."</p>";
+        echo "<p class='imc'>Votre IMC"." "."="." "($imc,1)."</p>";
 
 
     $typeIMC = "";
